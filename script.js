@@ -3,7 +3,7 @@ function validateLogin() {
   const password = document.getElementById("password").value;
   const errorMessage = document.getElementById("error-message");
 
-  if (username === "rameshsan90@gmail.com" && password === "Toosmart@1") {
+  if (username === "rameshsan90@gmail.com" && password === "**********") {
     alert("Login successful!");
     errorMessage.textContent = "";
     return true;
